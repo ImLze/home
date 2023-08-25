@@ -36,7 +36,7 @@ function goBlog() {
     $("#homeの").hide();
     $("#projectsの").hide();
 
-    $.get("https://blog.lze.ink/atom.xml", function (data) {
+    $.get("https://blog.lze.ink", function (data) {
         $('#blogs').empty();
         $(data).find('item').each(function () {
             var $item = $(this);
