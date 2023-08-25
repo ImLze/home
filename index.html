@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="keywords" content="Lze,Lze's home,Lze's homepage">
+	<meta name="description" content="Hello, I'm Lze.">
+	<meta name="author" content="Lze">
+	<title>Lze's Home</title>
+	<link id="favicon" rel="icon" href="avatar.jpg">
+	<link rel="stylesheet" href="./css/home.css">
+	<link
+		href="https://font.sec.miui.com/font/css?family=MiSans:400,500,600,700:Chinese_Simplify,Latin,Chinese_Traditional&amp;display=swap"
+		rel="stylesheet">
+	<link href="css/bootstrap-grid.min.css"
+		type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="bg"></div>
+	<div class="container">
+		<div class="main-box">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="box-left">
+						<img src="avatar.jpg" alt="L" title="Hello,I'm Lze.">
+						<h1>Lze</h1>
+					</div>
+
+				</div>
+				<div class="col-md-9">
+					<div class="box-right">
+						<ul class="nav-bar">
+							<li class="nav-item nav-active" id="home">
+								<a href="javascript:goHome();">Home</a>
+							</li>
+							<li class="nav-item" id="blog">
+								<a href="javascript:goBlog();">Blog</a>
+							</li>
+							<li class="nav-item" id="projects">
+								<a href="javascript:goProjects();">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://stat.lze.ink" target="_blank">Stat</a>
+							</li>
+						</ul>
+						<div class="box-content" id="homeの">
+							<p>Hello, I'm <span id="hi"></span></p>
+							<p>favourite: <span id="dev"></span></p>
+							<p>AGE: high-school student<p>
+							<p>E-mail: <a href="mailto:me@lze.ink">me@lze.ink</a></p>
+							<p>Contact me: 
+								<a href="https://github.com/ImLze" target="_blank">Github</a>
+							</p>
+							<p>Copyright &copy; 2022 Lze all right reserved</p>
+						</div>
+
+						<div class="box-content" id="blogの">
+							<div id="blogs" style="display: inline-grid;">
+								<p>WRANG!遇到错误,请尝试直连 <a href="https://blog.lze.ink" target="_blank">https://blog.lze.ink</a></p>
+							</div>
+						</div>
+
+						<div class="box-content" id="projectsの">
+							<div class="box-item"><a href="https://blog.lze.ink" target="_blank">Lze's Blog</a>
+							</div>
+							<div class="box-item"><a href="https://github.com/ImLze" target="_blank"> > 去 GitHub 看看</a></div>
+							<!--
+							示例
+							<div class="box-item"><a href="#" target="_blank"> tags </a></div>
+							-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<script src="js/jquery.min.js"
+		type="application/javascript"></script>
+	<script src="js/bootstrap.min.js"
+		type="application/javascript"></script>
+	<script src="js/typed.min.js"
+		type="application/javascript"></script>
+	<script>
+		$("#blogの").hide();
+		$("#projectsの").hide();
+	</script>
+	<script src="./js/home.js" type="application/javascript"></script>
+</body>
+
+</html>
