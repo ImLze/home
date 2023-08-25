@@ -10,10 +10,10 @@ var typed = new Typed('#hi', {
 var typed = new Typed('#dev', {
     strings: [
 	    "Develop",
-        "C Language",
-		"GitHub",
-		"Blog",
-		"Python",
+            "C Language",
+            "GitHub",
+	    "Blog",
+	    "Python",
     ],
     typeSpeed: 350,
     loop: true,
